@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(191, 194, 0, 0.13);
+}
+h1{
+    color: rgb(21, 43, 241);
+    font-size: 2.8em;
+}
+img{
+    width: 30vw;
+   margin-left: 40em;
+   margin-top: 2em;
+}
+
+span{
+    color:rgb(17, 34, 19)
+}
+.titu{
+   
+    margin:auto;
+    width: 60vw;
+}
+#contenedor{
+   
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 3.5px dotted rgba(143, 3, 3, 0.267);
+    border-radius: 20px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.subtitle{
+    font: status-bar;
+    font-size: 2em;
+    margin: 1em;
+    
+}
+.artic{
+    font: caption;
+    width: 20vw;
+    border: 2px solid rgb(67, 221, 248);
+    margin: 1px 1px 1px 1px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 1em;
+}
+.textito{
+    font-size: 1em;
+    margin: 1em;
+}
+.list{
+    margin: 1.3em;
+    
+    width: 8vw;
+  
+}
+#titulonoticias{
+    font: message-box;
+    font-size: 2.5em;
+}
+#enlace{
+    color: rgb(236, 102, 102);
+}
+#enlace:hover{
+    font-size: 1.1em;
+    color: red;
+}

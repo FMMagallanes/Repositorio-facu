@@ -1,0 +1,57 @@
+/* reset.css */
+
+/* Box-sizing border-box para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ajustes generales para mejorar la legibilidad */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Corrige los márgenes en todos los elementos */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Elimina las viñetas de las listas no ordenadas */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Ajusta el tamaño de fuente para los encabezados */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  h3 {
+    font-size: 1.17em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Ajusta el tamaño de fuente y espaciado para los párrafos */
+  p {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
